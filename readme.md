@@ -1,4 +1,4 @@
-# Simple Tailwind CSS Starter
+# Shortly
 
 This is an extremley simple setup to develop Tailwind projects. This will be used in my Tailwind From Scratch course.
 
@@ -29,4 +29,5 @@ npm run build
 ```
 
 You only need to deploy your html files and css/style.css
+# Shortly
 # Shortly
