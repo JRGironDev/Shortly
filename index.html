@@ -12,7 +12,33 @@
     <title>Shortly</title>
   </head>
   <body>
-    <h1 class="text-4xl mb-4">Shortly</h1>
-    <p>Start building your Tailwind project</p>
+    <!-- Nav Container-->
+     <nav class="relative container mx-auto-p-6">
+      <!-- Flex Container For All Items-->
+       <div class="flex items-center justify-between">
+        <!-- Flex Container For Logo/Menu -->
+         <div class="flex items-center space-x-20">
+          <!-- Logo -->
+          <img src="images/logo.svg" alt="Logo" />
+          <!-- Left Menu-->
+           <div class="hidden space-x-8 font-bold lg:flex">
+            <a href="#" class="text-grayishViolet hover:text-veryDarkViolet">
+              Features
+            </a>
+
+            <a href="#" class="text-grayishViolet hover:text-veryDarkViolet">
+              Pricing
+            </a>
+
+            <a href="#" class="text-grayishViolet hover:text-veryDarkViolet">
+              Resources
+            </a>
+           </div>
+         </div>
+
+          <!-- Right Menu-->
+           <div class="hidden items-center space-x-6 font-bold text-grayishViolet"></div>lg:flex
+       </div>
+     </nav>
   </body>
 </html>
