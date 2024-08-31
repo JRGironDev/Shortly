@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="js/script.js" defer></script>
     <link rel="stylesheet" href="css/style.css" />
     <title>Shortly</title>
   </head>
@@ -82,11 +83,16 @@
       <div class="max-w-4xl mx-auto p-6 space-y-6">
         <!-- Form -->
          <form id="link-form" class="relative flex flex-col w-full p-10 -mt-20 space-y-4 bg-darkViolet rounded-lg md:flex-row md:space-y-0 md:space-x-3">
-          <input placeholder="Shorten a link here" type="text" class="flex-1 p-3 border-2 rounded-lg placeholder-yellow-500 focus:outline-none">
+          <input id="link-input" placeholder="Shorten a link here" type="text" class="flex-1 p-3 border-2 rounded-lg placeholder-yellow-500 focus:outline-none">
          
           <button class="px-10 py-3 text-white bg-cyan rounded-lg hover:bg-cyanLight focus:outline-none md:py-2">
             Shorten It!
           </button>
+
+          <!-- Error Message -->
+           <div id="err-msg" class="absolute left-7 bottom-3 text-red tezt-sm italic"></div>
+
+
         </form>
 
         <!-- Link 1-->
@@ -141,5 +147,24 @@
          </div>
       </div>
     </section>
+
+    <!-- Stats Section-->
+     <section id="stats" class="py-24 bg-gray-100">
+      <div class="container mx-auto px-3">
+        <h2 class="text-4xl mb-6 font-bold text-center">
+          Advanced Statistics
+        </h2>
+        <p class="max-w-xs mx-auro text-center text-gray-400 md:max-w-md">
+          Track how your links are performing across the web with our advanced statistics dashboard.
+        </p>
+      </div>
+     </section>
+
+     <!-- Features Section-->
+      <section id="features" class="pb-32 bg-gray-100">
+        <div class="relative container flex flex-col items-start px-6 mx-auto md:flex-row md:space-x-7">
+          <!---->
+        </div>
+      </section>
   </body>
 </html>
